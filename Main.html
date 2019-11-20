@@ -8,8 +8,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <style>
-      .navbar-dark .navbar-brand, .navbar-dark .navbar-nav {color: white;}
-      .navbar-nav>li {float: none; text-align: center;}
+    .navbar-dark .navbar-brand {color: white;}
+    .navbar-dark .navbar-nav {-webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;}
+    .navbar-dark .navbar-nav > li {padding-left: 10px; padding-right: 10px;}
+    .navbar-dark .navbar-nav > li > a {color: white;}
+
+    body {background-color: grey;}
   </style>
 </head>
 
@@ -19,13 +23,16 @@
             <div class = "navbar-header">
                 <a class = "navbar-brand" href = "#">Global City Latitude Analysis</a>
             </div>
-            <ul class = "nav navbar-nav navbar-right">
+            <ul class = "navbar-nav navbar-right ml-auto">
                 <li class = "dropdown">
                     <a class = "dropdown-toggle" data-toggle="dropdown" href="#">Vizualizations<span class = "caret"></span></a>
                     <ul class = "dropdown-menu">
                         <li><a href = "#">Maximum Temperature</a></li>
+                        <li role="separator" class="divider"></li>
                         <li><a href = "#">Humidity</a></li>
+                        <li role="separator" class="divider"></li>
                         <li><a href = "#">Cloudiness</a></li>
+                        <li role="separator" class="divider"></li>
                         <li><a href = "#">Wind Speed</a></li>
                     </ul>
                 </li>
@@ -33,7 +40,7 @@
                 <li><a href="#">Data</a></li>
             </ul>
         </div>
-    </nav>   
+    </nav>
 </body>
   
 </html>
