@@ -6,9 +6,6 @@
   <title>Global City Latitude Analysis</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
-  <script src=“https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js” integrity=“sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1” crossorigin=“anonymous”></script>
-  <script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js” integrity=“sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM” crossorigin=“anonymous”></script>
   
   <style>
     .navbar-custom {background-color: white;}
@@ -19,9 +16,7 @@
 
     body {background-color: grey;}
 
-    .card {margin-top: 50px; margin-bottom: 50px; border: 1px solid black;}
-    .card:not(:last-child) {width: 10px}
-    .card:not(:first-child) {width: 25px;}
+    .card {margin-top: 35px; margin-bottom: 50px; border: 1px solid black;}
 
     @media (min-width: 34em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
     @media (min-width: 48em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
@@ -40,9 +35,18 @@
             <div class = "navbar-header">
                 <a class = "navbar-brand" href = "#">Global City Latitude Analysis</a>
             </div>
-
             <ul class = "navbar-nav navbar-right">
-                <li class = "dropdown">
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Languages</button>
+            ​
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Python</a>
+                <a class="dropdown-item" href="#">Javascript</a>
+                <a class="dropdown-item" href="#">COBALT</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">C++</a>
+                </div>
+                <!-- <li class = "dropdown">
                     <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#">Visualizations<span class = "caret"></span></a>
                     <ul class = "dropdown-menu">
                         <li><a href = "#">Maximum Temperature</a></li>
@@ -53,7 +57,7 @@
                         <li role = "separator" class = "divider"></li>
                         <li><a href = "#">Wind Speed</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li><a href="#">Comparison</a></li>
                 <li><a href="#">Data</a></li>
             </ul>
@@ -62,18 +66,18 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="card">
                     <div class = "card-body">
                         <h2 class = "card-title text-center">Global City Latitude Analysis Project<hr></h2>
                         <h3 class = "card-title text-center">Overview<hr></h3>
-                        <p class = "card-text">The purpose of this assignment was to analyze current weather data from over 500 randomly selected global cities. The Numpy, Citipy, and Requests modules in Python were used to generate random latitude and longitude combinations, find the name of the nearest city for each combination, and extract weather data from the Open Weather Map API for each city. Python's Pandas and Matplotlib modules were used to process this data to find certain metrics and generate plots to display meaningful results. This facilitated several observations regarding how maximum temperature, humidity, wind speed, and cloudiness vary based on a city's latitude.</p>
+                        <p class = "card-text text-center">The purpose of this assignment was to analyze current weather data from over 500 randomly selected global cities. The Numpy, Citipy, and Requests modules in Python were used to generate random latitude and longitude combinations, find the name of the nearest city for each combination, and extract weather data from the Open Weather Map API for each city. Python's Pandas and Matplotlib modules were used to process this data to find certain metrics and generate plots to display meaningful results. This facilitated several observations regarding how maximum temperature, humidity, wind speed, and cloudiness vary based on a city's latitude.</p>
                         <h3 class = "card-title text-center">Relevant Links<hr></h3>
                         <p class = "card-text text-center"><a href="https://openweathermap.org/api">Data Source</a></br><a href="https://github.com/mjknj18/Global-Weather-Data-Analysis">Project Repository</a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <div class="card">
                     <div class = "card-body">
                         <h2 class = "card-title text-center">Visualizations<hr></h2>
@@ -112,6 +116,10 @@
             <div class="footer-copyright text-center">©2019 MK</div>
         </div>
     </footer>
+
+<script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
+<script src=“https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js” integrity=“sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1” crossorigin=“anonymous”></script>
+<script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js” integrity=“sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM” crossorigin=“anonymous”></script>
 </body>
   
 </html>
