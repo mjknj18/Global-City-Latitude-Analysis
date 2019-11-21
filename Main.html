@@ -15,9 +15,14 @@
 
     body {background-color: grey;}
 
-    .card-deck {margin-top: 200px; margin-bottom: 200px; margin-left: 10px; margin-right: 10px}
-    .card-deck .card:not(:last-child) {margin-right: 25px;}
-    .card-deck .card:not(:first-child) {margin-left: 25px;}
+    .card {margin-top: 75px; margin-bottom: 75px; margin-right: 10px; border: 1px solid black}
+    .card:not(:last-child) {}
+    .card:not(:first-child) {}
+
+    @media (min-width: 34em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
+    @media (min-width: 48em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
+    @media (min-width: 62em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
+    @media (min-width: 75em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
   </style>
 </head>
 
@@ -48,16 +53,18 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-7 offset-xs-1">
-                <div class="card-deck">
+            <div class = "card-columns"></div>
+                <div class="col-md-7 offset col-md-1">
                     <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">The purpose of this assignment was to analyze current weather data from over 500 randomly selected global cities. The Numpy, Citipy, and Requests modules in Python were used to generate random latitude and longitude combinations, find the name of the nearest city for each combination, and extract weather data from the Open Weather Map API for each city. Python's Pandas and Matplotlib modules were used to process this data to find certain metrics and generate plots to display meaningful results. This facilitated several observations regarding how maximum temperature, humidity, wind speed, and cloudiness vary based on a city's latitude.</p>
+                        <div class = "card-body">
+                            <h2 class = "card-title text-center">Global City Latitude Analysis Project</h2>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">Some text inside the second card</p>
+                        <div class = "card-body">
+                            <h2 class = "card-title text-center">Vizualizations</h2>
                         </div>
                     </div>
                 </div>
