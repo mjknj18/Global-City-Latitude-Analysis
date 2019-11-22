@@ -17,23 +17,32 @@
 
   <!-- Define Page Styling -->
   <style>
+
+    /* Define Navigation Bar Styling */
     .navbar-custom {background-color: white;}
     .navbar-custom .navbar-brand {color: black; font-weight: bold}
     .navbar-custom .navbar-nav {-webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; vertical-align: middle;}
     .navbar-custom .navbar-nav > li {padding-left: 10px; padding-right: 10px;}
     .navbar-custom .navbar-nav > li > a {color: black;}
+    .navbar-custom .navbar-toggler {font-size:25px; background:none; border:none;}
+    .navbar-custom .navbar-toggler span {width: 1px;}
 
+    /* Define Body Styling */
     body {background-color: grey;}
 
+    /* Define Card Styling */
     .card {margin-top: 10px; margin-bottom: 10px; border: 1px solid black;}
 
+    /* Define Styling for Different Page Sizes */
     @media (min-width: 34em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
     @media (min-width: 48em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
     @media (min-width: 62em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
     @media (min-width: 75em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
 
+    /* Define Card Header Styling */
     .hr {margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid black;}
 
+    /* Define Footer Styling */
     .footer {background-color: white; color: black; font-weight: bold}
   </style>
 </head>
