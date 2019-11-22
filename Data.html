@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Global City Latitude Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>$(document).ready(function(){$('[data-toggle="popover"]').popover({html: true});});</script>
+  <style>
+    .navbar-custom {background-color: white;}
+    .navbar-custom .navbar-brand {color: black; font-weight: bold}
+    .navbar-custom .navbar-nav {-webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; vertical-align: middle;}
+    .navbar-custom .navbar-nav > li {padding-left: 10px; padding-right: 10px;}
+    .navbar-custom .navbar-nav > li > a {color: black;}
+
+    body {background-color: grey;}
+
+    .card {margin-top: 10px; margin-bottom: 10px; border: 1px solid black;}
+
+    @media (min-width: 34em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
+    @media (min-width: 48em) {.card-columns {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}}
+    @media (min-width: 62em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
+    @media (min-width: 75em) {.card-columns {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}}
+
+    .hr {margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid black;}
+
+    .footer {background-color: white; color: black; font-weight: bold}
+  </style>
+</head>
+
+<body>
+    <nav class = "navbar navbar-custom">
+        <div class = "container-fluid">
+            <div class = "navbar-header">
+                <a class = "navbar-brand" href = "Main.html">Global City Latitude Analysis</a>
+            </div>
+            <ul class = "navbar-nav navbar-right">
+                <li class = "nav-item"><a class = "nav-link" href = "#" data-toggle = "popover" data-placement = "left" data-content = "<a href = 'Temperature.html' title = 'Maximum Temperature'>Maximum Temperature</a></br><a href = 'Humidity.html' title = 'Humidity'>Humidity</a></br><a href = 'Cloudiness.html' title = 'Cloudiness'>Cloudiness</a></br><a href = 'Wind.html' title = 'Wind Speed'>Wind Speed</a>">Visualizations</a></li>
+                <li class = "nav-item"><a class = "nav-link" href="Comparison.html">Comparison</a></li>
+                <li class = "nav-item"><a class = "nav-link" href="Data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class = "card-body">
+                        <h2 class = "card-title text-center">Raw Weather Data<hr></h2>
+                        <div class="table-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class = "container-fluid"></div>
+            <div class="footer-copyright text-center">©2019 MK</div>
+        </div>
+    </footer>
+</body>
+
+</html>
