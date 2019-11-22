@@ -13,6 +13,7 @@
     .navbar-custom .navbar-nav {-webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;}
     .navbar-custom .navbar-nav > li {padding-left: 10px; padding-right: 10px;}
     .navbar-custom .navbar-nav > li > a {color: black;}
+    .navbar-custom .navbar-nav .nav-item:first-child .nav-link {padding-top: 50px;}
 
     body {background-color: grey;}
 
@@ -27,6 +28,10 @@
 
     .footer {background-color: white; color: black; font-weight: bold}
   </style>
+
+<script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
+<script src=“https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js” integrity=“sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1” crossorigin=“anonymous”></script>
+<script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js” integrity=“sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM” crossorigin=“anonymous”></script>
 </head>
 
 <body>
@@ -36,30 +41,18 @@
                 <a class = "navbar-brand" href = "#">Global City Latitude Analysis</a>
             </div>
             <ul class = "navbar-nav navbar-right">
-                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Languages</button>
-            ​
+                <button class = "btn dropdown-toggle" type = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">Visualizations</button>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Python</a>
-                <a class="dropdown-item" href="#">Javascript</a>
-                <a class="dropdown-item" href="#">COBALT</a>
+                <a class="dropdown-item" href="#">Maximum Temperature</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">C++</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Wind Speed</a>
                 </div>
-                <!-- <li class = "dropdown">
-                    <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#">Visualizations<span class = "caret"></span></a>
-                    <ul class = "dropdown-menu">
-                        <li><a href = "#">Maximum Temperature</a></li>
-                        <li role = "separator" class = "divider"></li>
-                        <li><a href = "#">Humidity</a></li>
-                        <li role = "separator" class = "divider"></li>
-                        <li><a href = "#">Cloudiness</a></li>
-                        <li role = "separator" class = "divider"></li>
-                        <li><a href = "#">Wind Speed</a></li>
-                    </ul>
-                </li> -->
-                <li><a href="#">Comparison</a></li>
-                <li><a href="#">Data</a></li>
+                <li class = "nav-item"><a href="#">Comparison</a></li>
+                <li class = "nav-item"><a href="#">Data</a></li>
             </ul>
         </div>
     </nav>
@@ -96,12 +89,12 @@
                         <div class = row>
                             <div class = "col-md-6">
                                 <div class = "photo-box text-center">
-                                    <img class = "img-fluid" src = "https://github.com/mjknj18/Global-Weather-Data-Analysis/blob/master/Images/Cloudiness_vs_City_Latitude.png?raw=true" alt = "Cloudiness">
+                                        <p><a href = "#"><img src = "https://github.com/mjknj18/Global-Weather-Data-Analysis/blob/master/Images/Cloudiness_vs_City_Latitude.png?raw=true" class = "img-fluid" alt = "Cloudiness"></a></p>
                                 </div>
                             </div>
                             <div class = "col-md-6">
                                 <div class = "photo-box text-center">
-                                    <img class = "img-fluid" src = "https://github.com/mjknj18/Global-Weather-Data-Analysis/blob/master/Images/Wind_Speed_vs_City_Latitude.png?raw=true" alt = "Wind Speed">
+                                        <p><a href = "#"><img src = "https://github.com/mjknj18/Global-Weather-Data-Analysis/blob/master/Images/Wind_Speed_vs_City_Latitude.png?raw=true" class = "img-fluid" alt = "Wind Speed"></a></p>
                                 </div>
                             </div>
                         </div>
@@ -116,10 +109,6 @@
             <div class="footer-copyright text-center">©2019 MK</div>
         </div>
     </footer>
-
-<script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
-<script src=“https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js” integrity=“sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1” crossorigin=“anonymous”></script>
-<script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js” integrity=“sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM” crossorigin=“anonymous”></script>
 </body>
   
 </html>
