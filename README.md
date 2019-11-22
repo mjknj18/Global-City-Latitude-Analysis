@@ -16,6 +16,3 @@
 
 ## Results
 
-
-
-## Disclaimer
