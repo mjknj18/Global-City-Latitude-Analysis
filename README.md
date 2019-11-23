@@ -35,7 +35,8 @@ The goal of this project was to develop a website to present results from the Gl
 
 ### Data Page
 
-
+1. Create a navigation bar with header, dropdown menu with links to visualization pages, and links to the comparison and data pages.
+2. Create a content card with a table of the raw data used to generate all four visualizations.
 
 ## Results
 
