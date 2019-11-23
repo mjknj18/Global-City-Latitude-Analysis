@@ -24,7 +24,9 @@ The goal of this project was to develop a website to present results from the Gl
 
 ### Visualization Pages
 
-
+1. Create a navigation bar with header, dropdown menu with links to visualization pages, and links to the comparison and data pages.
+2. Create a content card with the featured visualization and a brief analysis of the presented data.
+3. Create a content card with all four visualizations, which are also links to their associated visualization page.
 
 ### Comparison Page
 
