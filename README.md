@@ -21,22 +21,26 @@ The goal of this project was to develop a website to present results from the Gl
 1. Create a navigation bar with a header, a dropdown menu containing links to each visualization page, and links to the comparison and data pages.
 2. Create a content card with a project summary, as well as links to the associated web API and GitHub repository. 
 3. Create a content card with all four visualizations, where each is also a link to its associated visualization page.
+4. Add HTML code to allow page presentation to adapt based on browser screen size.
 
 ### Visualization Pages
 
 1. Create a navigation bar with a header, a dropdown menu containing links to each visualization page, and links to the comparison and data pages.
 2. Create a content card with the featured visualization and a brief analysis of the presented data.
 3. Create a content card with all four visualizations, where each is also a link to its associated visualization page.
+4. Add HTML code to allow page presentation to adapt based on browser screen size.
 
 ### Comparison Page
 
 1. Create a navigation bar with a header, a dropdown menu containing links to each visualization page, and links to the comparison and data pages.
 2. Create a content card with all four visualizations, where each is also a link to its associated visualization page.
+3. Add HTML code to allow page presentation to adapt based on browser screen size.
 
 ### Data Page
 
 1. Create a navigation bar with a header, a dropdown menu containing links to each visualization page, and links to the comparison and data pages.
 2. Create a content card with a table of the raw data used to generate all four visualizations.
+3. Add HTML code to allow page presentation to adapt based on browser screen size.
 
 ## Results
 
