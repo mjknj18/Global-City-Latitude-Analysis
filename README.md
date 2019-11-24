@@ -4,10 +4,10 @@ The goal of this project was to develop a website to present results from the Gl
 
 ## Questions
 
-1. Develop a webpage presenting a summary of the project and four associated visualizations.
-2. Develop four webpages presenting each of the individual visualizations, along with an associated analysis.
+1. Develop a webpage presenting a summary of the project and the four associated visualizations.
+2. Develop four webpages each presenting an individual visualization, along with its associated analysis.
 3. Develop a webpage presenting a comparison of the four visualizations.
-4. Develop a webpage presenting the raw data used to create the four visualizations.
+4. Develop a webpage presenting a table of the raw data used to create the four visualizations.
 
 ## Datasets
 
