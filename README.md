@@ -19,8 +19,8 @@ The goal of this project was to develop a website to present results from the Gl
 ### Summary Page
 
 1. Create a navigation bar with a header, a dropdown menu containing links to each visualization page, and links to the comparison and data pages.
-2. Create a content card with a project summary, as well as links to the associated GitHub repository and web API. 
-3. Create a content card with all four visualizations, which are also links to their associated visualization page.
+2. Create a content card with a project summary, as well as links to the associated web API and GitHub repository. 
+3. Create a content card with all four visualizations, where each is also a link to its associated visualization page.
 
 ### Visualization Pages
 
